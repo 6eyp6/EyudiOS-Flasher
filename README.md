@@ -34,6 +34,8 @@ Desteklenen araçlar:
 
 # 📦 Kurulum
 
+- Not! Uygulamada basit bir pencere hatası bulunmakta, "yükle" butonu pencereyi aşağı uzattığınızda ortaya çıkacaktır.
+
 ## Gereksinimler
 
 Eğer Windows işletim sistemini kullanmıyorsanız sisteminizde:
