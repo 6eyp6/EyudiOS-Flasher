@@ -35,14 +35,14 @@ Desteklenen araçlar:
 
 # ✨ Özellikler
 
-✅ Modern CustomTkinter arayüzü  
-✅ Otomatik COM port algılama  
-✅ Arduino HEX firmware yükleme  
-✅ ESP32 / ESP32-S3 BIN firmware yükleme  
-✅ Kolay firmware seçimi  
-✅ Gerçek zamanlı işlem çıktıları  
-✅ Kullanıcı dostu hata mesajları  
-✅ Taşınabilir çalışma desteği  
+- ✅ Modern CustomTkinter arayüzü  
+- ✅ Otomatik COM port algılama  
+- ✅ Arduino HEX firmware yükleme  
+- ✅ ESP32 / ESP32-S3 BIN firmware yükleme  
+- ✅ Kolay firmware seçimi  
+- ✅ Gerçek zamanlı işlem çıktıları  
+- ✅ Kullanıcı dostu hata mesajları  
+- ✅ Taşınabilir çalışma desteği  
 
 ---
 
@@ -152,5 +152,3 @@ unutmayın!
 # 🎉 İyi kullanımlar!
 
 **Eyudio Flasher ile firmware dünyasına hoş geldiniz. 🚀**
-
-bunun ingilizce versiyonunun aynısını yap hiç kelimesini değiştirmeden
