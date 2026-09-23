@@ -1,19 +1,22 @@
 <div align="right">
   <a href="README.tr.md">
-    <img src="[https://img.shields.io/badge/DİL-TÜRKÇE-E30A17?style=for-the-badge&logo=turkey&logoColor=white](https://img.shields.io/badge/DİL-TÜRKÇE-E30A17?style=for-the-badge&logo=turkey&logoColor=white)" alt="Türkçe">
+    <img src="https://img.shields.io/badge/Lang-T%C3%BCrk%C3%A7e-red?style=flat-square" alt="Türkçe">
   </a>
-  <img src="[https://img.shields.io/badge/LANGUAGE-ENGLISH-00247D?style=for-the-badge](https://img.shields.io/badge/LANGUAGE-ENGLISH-00247D?style=for-the-badge)" alt="English (Current)">
+  <img src="https://img.shields.io/badge/Lang-English-blue?style=flat-square" alt="English (Current)">
 </div>
 
----
+<div align="center">
 
-# 🚀 Eyudio Flasher
+  # ⚡ Eyudio Flasher
+  
+  **Modern • Fast • User-Friendly Firmware Flash Tool**
 
-<p align="center">
-  <b>Modern • Fast • User-Friendly Firmware Flash Tool</b>
-</p>
+  [![Release](https://img.shields.io/github/v/release/6eyp6/EyudiOS-Flasher?style=flat-square&color=007ec6)](https://github.com/6eyp6/EyudiOS-Flasher/releases)
+  [![Python](https://img.shields.io/badge/Python-3.x-3776ab?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
+  [![Platform](https://img.shields.io/badge/Platform-Windows-0078d6?style=flat-square&logo=windows&logoColor=white)](#)
+  [![License](https://img.shields.io/badge/License-GPL--3.0-success?style=flat-square)](LICENSE)
 
----
+</div>
 
 ## 📌 About
 
