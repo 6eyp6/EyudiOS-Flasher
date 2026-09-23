@@ -1,82 +1,149 @@
-<p align="right">
-  <a href="README.tr.md">🇹🇷 Türkçe</a> • <b>🇬🇧 English</b>
-</p>
+<div align="right">
+  <a href="README.tr.md">
+    <img src="[https://img.shields.io/badge/DİL-TÜRKÇE-E30A17?style=for-the-badge&logo=turkey&logoColor=white](https://img.shields.io/badge/DİL-TÜRKÇE-E30A17?style=for-the-badge&logo=turkey&logoColor=white)" alt="Türkçe">
+  </a>
+  <img src="[https://img.shields.io/badge/LANGUAGE-ENGLISH-00247D?style=for-the-badge](https://img.shields.io/badge/LANGUAGE-ENGLISH-00247D?style=for-the-badge)" alt="English (Current)">
+</div>
+
+---
+
+# 🚀 Eyudio Flasher
 
 <p align="center">
-  <h1 align="center">⚡ Eyudio Flasher</h1>
-  <p align="center">
-    <b>A Modern, Unified GUI Firmware Flasher for AVR and Espressif Microcontrollers</b>
-  </p>
-  <p align="center">
-    <a href="https://github.com/6eyp6/EyudiOS-Flasher/releases"><img src="https://img.shields.io/github/v/release/6eyp6/EyudiOS-Flasher?style=for-the-badge&color=blue" alt="Latest Release"></a>
-    <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
-    <img src="https://img.shields.io/badge/UI-CustomTkinter-blueviolet?style=for-the-badge" alt="CustomTkinter">
-    <img src="https://img.shields.io/badge/License-GPL--3.0-green?style=for-the-badge" alt="License">
-  </p>
+  <b>Modern • Fast • User-Friendly Firmware Flash Tool</b>
 </p>
 
 ---
 
-## 📌 Overview
+## 📌 About
 
-**Eyudio Flasher** is an open-source, desktop flashing utility designed to eliminate CLI friction when burning firmware to embedded hardware. It bridges legacy AVR programmers and modern Espressif flashing toolchains into a sleek, dark-themed GUI.
+**Eyudio Flasher** is a modern flashing tool developed to simplify firmware uploading processes for development boards such as Arduino, ESP32, ESP32-S3, and Arduino Leonardo/Uno.
 
-No more manual terminal arguments or hunting down COM ports—plug in, select your target binary, and flash with a single click.
+By gathering complex command-line operations under a single interface, it provides users with a simpler and faster experience.
 
-### Supported Toolchains & Chips
-- 🔹 **AVR Core (`avrdude`):** Arduino Uno, Nano (ATmega328P), Arduino Leonardo (ATmega32U4), and Mega.
-- 🔹 **Espressif Core (`esptool`):** ESP32, ESP32-S3 (including native USB JTAG/CDC targets).
+Supported tools:
 
----
-
-## 📸 Interface Preview
-
-<p align="center">
-  <img src="image.png" alt="Eyudio Flasher Dashboard" width="700">
-</p>
+- 🔹 `avrdude` → AVR-based boards
+- 🔹 `esptool` → ESP-based boards
 
 ---
 
-## ✨ Key Capabilities
+# ✨ Features
 
-- 🎨 **Modern Dark Interface:** Built with CustomTkinter for high-DPI crisp rendering.
-- 🔌 **Dynamic Port Discovery:** Real-time enumeration of serial/COM ports.
-- 📦 **Multi-Format Parsing:** Seamless validation for `.hex` (AVR) and `.bin` (ESP) binaries.
-- ⚡ **Live Logging Console:** Streamed terminal outputs directly inside the UI for debugging.
-- 🚀 **Zero-Dependency Portable Binary:** Standalone Windows `.exe` available for non-technical users.
-
----
-
-## 📁 Supported Targets
-
-| Architecture | Platform / Board | Binary Type | Default Flashing Engine |
-| :--- | :--- | :--- | :--- |
-| **8-bit AVR** | Leonardo, Pro Micro | `.hex` | `avrdude` |
-| **Xtensa / RISC-V** | ESP32, ESP32-S3 | `.bin` | `esptool.py` |
+✅ Modern CustomTkinter interface  
+✅ Automatic COM port detection  
+✅ Arduino HEX firmware flashing  
+✅ ESP32 / ESP32-S3 BIN firmware flashing  
+✅ Easy firmware selection  
+✅ Real-time process outputs  
+✅ User-friendly error messages  
+✅ Portable operation support  
 
 ---
 
-## 🚀 Quick Start
+# 📦 Installation
 
-### Option A: Windows Portable (Recommended)
-Download the standalone zero-install executable directly from the Releases tab:
-1. Grab `EyudioFlasher.exe` from **[Releases](https://github.com/6eyp6/EyudiOS-Flasher/releases)**.
-2. Connect your microcontroller via USB.
-3. Launch and select your firmware file.
+## Requirements
 
-### Option B: Run from Source
+If you are not using the Windows operating system, your system must have:
 
-#### Prerequisites
-- Python 3.10 or higher
-- System drivers for CH340 / CP210x / Native USB CDC (if required)
+- Python 3.x
+- Required Python libraries
+
+installed.
+
+To install the libraries automatically:
 
 ```bash
-# Clone the repository
-git clone [https://github.com/6eyp6/EyudiOS-Flasher.git](https://github.com/6eyp6/EyudiOS-Flasher.git)
-cd EyudioFlasher
-
-# Install dependencies
 pip install -r requirements.txt
+```
 
-# Launch Application
+This command is sufficient. 🚀
+
+---
+
+# ▶️ Running
+
+After downloading the project:
+
+```bash
 python flasher.py
+```
+
+you can start it with this command.
+
+---
+
+# 🪟 Windows Users
+
+For users who do not want to deal with Python installation:
+
+> 💻 Windows `.exe` version
+
+can be used.
+
+Download → Run → Flash firmware 🚀
+
+---
+
+# 📁 Supported Firmware Types
+
+| Platform | Format |
+|---|---|
+| Arduino | `.hex` |
+| ESP32 | `.bin` |
+| ESP32-S3 | `.bin` |
+
+---
+
+# 🛠 Technologies Used
+
+- 🐍 Python
+- 🎨 CustomTkinter
+- 🔌 PySerial
+- ⚙️ AVRDUDE
+- ⚡ ESPTOOL
+
+---
+
+# 📸 Screenshot
+<p align="center">
+  <img src="image.png" alt="Eyudio Flasher Screenshot">
+</p>
+---
+
+# ⚠️ Warnings
+
+During firmware flashing:
+
+- Do not disconnect the USB connection.
+- Make sure you select the correct COM port.
+- Use the appropriate firmware for the correct device.
+
+Flashing the wrong firmware may cause your device to not work.
+
+---
+
+# ❤️ Developer
+
+**Eyudio Team**
+
+Developed for open source and hardware projects of the future. 🚀
+
+---
+
+## ⭐ Support Us
+
+If you like the project:
+
+⭐ Giving a star  
+🔁 Sharing  
+💡 Contributing  
+
+don't forget!
+
+---
+
+# 🎉 Enjoy using it!
+
+**Welcome to the firmware world with Eyudio Flasher. 🚀**
