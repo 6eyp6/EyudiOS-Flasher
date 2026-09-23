@@ -89,16 +89,6 @@ Download → Run → Flash firmware 🚀
 
 ---
 
-# 📁 Supported Firmware Types
-
-| Platform | Format |
-|---|---|
-| Arduino | `.hex` |
-| ESP32 | `.bin` |
-| ESP32-S3 | `.bin` |
-
----
-
 # 🛠 Technologies Used
 
 - 🐍 Python
