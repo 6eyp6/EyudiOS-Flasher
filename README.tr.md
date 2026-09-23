@@ -91,16 +91,6 @@ kullanılabilir.
 
 ---
 
-# 📁 Desteklenen Firmware Türleri
-
-| Platform | Format |
-|---|---|
-| Arduino | `.hex` |
-| ESP32 | `.bin` |
-| ESP32-S3 | `.bin` |
-
----
-
 # 🛠 Kullanılan Teknolojiler
 
 - 🐍 Python
