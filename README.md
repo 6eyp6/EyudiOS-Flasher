@@ -25,7 +25,7 @@ No more manual terminal arguments or hunting down COM ports—plug in, select yo
 
 ### Supported Toolchains & Chips
 - 🔹 **AVR Core (`avrdude`):** Arduino Uno, Nano (ATmega328P), Arduino Leonardo (ATmega32U4), and Mega.
-- 🔹 **Espressif Core (`esptool`):** ESP32, ESP32-S2, ESP32-S3 (including native USB JTAG/CDC targets).
+- 🔹 **Espressif Core (`esptool`):** ESP32, ESP32-S3 (including native USB JTAG/CDC targets).
 
 ---
 
@@ -51,7 +51,7 @@ No more manual terminal arguments or hunting down COM ports—plug in, select yo
 
 | Architecture | Platform / Board | Binary Type | Default Flashing Engine |
 | :--- | :--- | :--- | :--- |
-| **8-bit AVR** | Uno, Nano, Leonardo, Mega | `.hex` | `avrdude` |
+| **8-bit AVR** | Leonardo, Pro Micro | `.hex` | `avrdude` |
 | **Xtensa / RISC-V** | ESP32, ESP32-S3 | `.bin` | `esptool.py` |
 
 ---
