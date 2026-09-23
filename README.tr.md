@@ -9,7 +9,7 @@
 
   # ⚡ Eyudio Flasher
   
-  **Modern • Fast • User-Friendly Firmware Flash Tool**
+  **Modern • Hızlı • EyudiOS Yükleme Aracı**
 
   [![Release](https://img.shields.io/github/v/release/6eyp6/EyudiOS-Flasher?style=flat-square&color=007ec6)](https://github.com/6eyp6/EyudiOS-Flasher/releases)
   [![Python](https://img.shields.io/badge/Python-3.x-3776ab?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
