@@ -101,7 +101,7 @@ Download → Run → Flash firmware 🚀
 
 # 📸 Screenshot
 <p align="center">
-  <img src="image.png" alt="Eyudio Flasher Screenshot">
+  <img src="image1.png" alt="Eyudio Flasher Screenshot">
 </p>
 ---
 
